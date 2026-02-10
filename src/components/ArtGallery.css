@@ -1,0 +1,27 @@
+.art-section {
+    margin-bottom:4rem;
+}
+
+.art-section h1 {
+    text-align: center;
+    margin-bottom:2rem;
+    font-weight:600;
+    letter-spacing:0.05em;
+    color:rgb(63, 63, 63);
+}
+.art-section h2 {
+    text-align: center;
+    margin-bottom:2rem;
+    margin-top:1rem;
+    font-weight:500;
+    letter-spacing:0.05em;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr)); /* # of columns depends on screen size*/
+    gap: 4rem;
+    max-width:1600px;
+    width:100%;
+    margin: 0 auto; /* centers whole grid */
+    padding:2rem;
+}
