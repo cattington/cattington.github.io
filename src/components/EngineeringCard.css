@@ -31,7 +31,10 @@
 .project-title-link:hover {
     text-decoration: underline;
     opacity: 0.85;
+    color:rgb(119, 155, 65);   
 }
+    
+
 
 .proj-info-pic {
     max-width:100%;
@@ -68,6 +71,7 @@ p {
     color:rgb(126, 126, 126);
     line-height: 3rem;
     margin-top:-1rem;
+    font-family: "DM Sans", sans-serif;
 }
 /* 
 @media (max-width:1000px) {

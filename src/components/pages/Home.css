@@ -68,7 +68,8 @@ h2 {
     font-size: 40px;
     margin-top: -1rem;
     color:#5c5c5c;
-    font-family: "Arimo", sans-serif;
+    /* font-family: "Arimo", sans-serif; */
+    font-family: "DM Sans", sans-serif;
     font-weight:800px;
 }
 
@@ -86,7 +87,8 @@ p2 {
     margin-top:1rem;
     align-self:center;
     justify-content: center;
-    font-family: "Arimo", sans-serif;
+    /* font-family: "Arimo", sans-serif; */
+    font-family: "DM Sans", sans-serif;
 }
 
 .contact {
@@ -113,22 +115,23 @@ p2 {
 
 .contact-info li {
     font-size: 18px;  
-    color:rgb(95, 128, 47);
+    color:rgb(101, 101, 101);
     margin-top:-1rem;
     margin-bottom:1rem;
     list-style:none;
     text-align:center;
+    font-family: "DM Sans", sans-serif;
 }
 
 .contact-link {
-    text-decoration: underline;
+    text-decoration: none;
     color: inherit;
     font-size: 22px;
 }
 
-.project-title-link:hover {
-    text-decoration: underline;
-    color:rgb(119, 155, 65);
+.contact-link:hover {
+    color:rgb(119, 155, 65);   
+    text-decoration:underline; 
     opacity: 0.70;
 }
 
@@ -136,4 +139,5 @@ s1 {
     font-size: 18px;  
     color:rgb(126, 126, 126);
     margin-top:1rem;
+    font-family: "DM Sans", sans-serif;
 }
