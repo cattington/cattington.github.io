@@ -42,6 +42,8 @@ const EngineeringInfo = [
         title:"Personal Portfolio Website",
         role:"Web Designer and Developer",
         link:"https://github.com/cattington/cattington.github.io",
+        photo1: "./assets/portfolio1.png",
+        photo2: "./assets/portfolio2.png",
         goal:"Create a portfolio website to practice web design and programming skills with React and showcase technical, artistic, and musical abilities",
         contributions:"Solo developer, taught self how to use ReactJS and CSS to build custom website",
         skills:["Web Design", "Web Programming","React", "Node.js", "CSS"]  

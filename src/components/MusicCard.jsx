@@ -12,11 +12,11 @@ const MusicCard = ({ band }) => {
         <h2>{band.caption}</h2>
         <div className="info-pic"> 
             <img src={band.cover} alt={band.title} className="band-image"/>
-            <div className="band-vid">
+            {/* <div className="band-vid">
                 <video controls>
                     <source src={band.vid} type="video/mp4" />
                 </video>
-            </div>
+            </div> */}
             <div className="band-info">
                 <h2>Gigs:</h2>
                 <p>{band.gigs}</p>

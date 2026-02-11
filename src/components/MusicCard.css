@@ -14,22 +14,29 @@
     display:flex;
     flex-direction: row;
 }
-/* 
-.band-image,
-.band-vid {
-    height: 350px;
-} */
+
+.info-pic {
+    display: flex;
+    flex-direction: row;
+    /* max-width: 100%; */
+    height:auto;
+}
 
 .band-image {
-    max-width:50%;
+    display:flex;
+    flex: 0 0 50%;
+    width:50%;
     height:auto;
     align-self: left;
     margin-right:2rem;
     border-radius: 1rem;
     margin-bottom:3rem;
+    flex-shrink: 0;
+    object-fit:cover;
 }
 
-.band-vid {
+/* .band-vid {
+    display:flex;
     height: 600px;
     aspect-ratio: 9 / 16;
     margin-right:4rem;
@@ -42,25 +49,14 @@
     height:100%;
     border-radius:1rem;
     object-fit: cover;
-}
+} */
 
-
-
-.info-pic {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-}
 
 .band-info {
     width:100%;
     height:auto;
     text-align: left;
-}
-
-.image-gallery {
-    display:flex;
-    flex-direction:row;
+    flex:1;
 }
 
 .music-card h1 {
@@ -82,7 +78,7 @@ h3 {
     font-size:40px;
     font-weight:500;
     letter-spacing:0.05em;
-    margin-top:28px;
+    margin-top:3rem;
     margin-left:1rem;
     color:rgb(145, 145, 145);
     align-self:left;

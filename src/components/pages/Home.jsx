@@ -42,7 +42,7 @@ export const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <s1>This website is coded from scratch using ReactJS. Although fully functional, the design is still in progress.</s1>
+                    <s1>This website is coded from scratch using ReactJS. Although fully functional, the design and mobile view is still in progress.</s1>
                     <s1>Last updated: January 2026</s1>
                 </div>
             </div>
